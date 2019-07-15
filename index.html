@@ -1,4 +1,4 @@
-<!DOCTYPE HTML>
+<!DOCTYPE html>
 <!--
 	Massively by HTML5 UP
 	html5up.net | @ajlkn
@@ -7,458 +7,390 @@
 <html>
 
 <head>
-	<title>Portfolio</title>
-	<meta charset="utf-8" />
-	<meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no" />
-	<link rel="stylesheet" href="assets/css/main.css" />
-	<link href="https://fonts.googleapis.com/css?family=Raleway" rel="stylesheet">
-	<noscript>
-		<link rel="stylesheet" href="assets/css/noscript.css" /></noscript>
+  <title>Portfolio</title>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no" />
+  <link rel="stylesheet" href="assets/css/main.css" />
+  <link href="https://fonts.googleapis.com/css?family=Raleway" rel="stylesheet" />
+  <noscript>
+    <link rel="stylesheet" href="assets/css/noscript.css" /></noscript>
 </head>
 
 <body class="is-preload">
+  <!-- Wrapper -->
+  <div id="wrapper" class="fade-in">
+    <!-- Intro -->
+    <div id="intro">
+      <h1>Mein Portfolio</h1>
+      <p>
+        Hi, mein Name ist Isabel. Ich bin Webentwicklerin in Berlin. Hier
+        finden Sie eine Übersicht meiner bisherigen Arbeit. Danke, dass Sie
+        sich die Zeit nehmen und einen Blick auf meine Projekte werfen.
+      </p>
+      <ul class="actions">
+        <li>
+          <a href="#takeMeHere" class="button icon solo fa-arrow-down scrolly">Continue</a>
+        </li>
+      </ul>
+    </div>
 
-	<!-- Wrapper -->
-	<div id="wrapper" class="fade-in">
+    <nav id="nav">
+      <ul id="takeMeHere" class="links">
+        <li style="background-color: #ADB7CE" class="active">
+          <a href="index.html">Deutsch</a>
+        </li>
+        <li><a href="englisch.html">Englisch</a></li>
+      </ul>
+      <ul class="icons">
+        <li>
+          <a href="https://www.linkedin.com/in/isabel-seidl-86732915b/" class="icon fa-linkedin"><span
+              class="label">Linkedin</span></a>
+        </li>
+        <li>
+          <a href="https://github.com/IsabelAntonia" class="icon fa-github"><span class="label">GitHub</span></a>
+        </li>
+      </ul>
+    </nav>
 
-		<!-- Intro -->
-		<div id="intro">
-			<h1>Mein Portfolio</h1>
-			<p>Hi, mein Name ist Isabel. Ich bin Webentwicklerin in Berlin. Hier finden Sie eine Übersicht meiner
-            bisherigen Arbeit. Danke, dass Sie sich die Zeit nehmen und einen
-            Blick auf meine Projekte werfen.</p>
-			<ul class="actions">
-				<li><a href="#takeMeHere"
-						class="button icon solo fa-arrow-down scrolly">Continue</a></li>
-			</ul>
-		</div>
+    <!-- Main -->
+    <div id="main">
+      <section class="posts" style="background-color: #ADB7CE">
+        <article>
+          <header>
+            <h2>Java Battleship Game</h2>
+          </header>
+          <!-- <img class="image fit" src="images/soccer.png" alt="" /> -->
+          <img class="image fit" src="images/Java.png" alt="tic_tac_toe" />
+          <p>
+            Dies ist eine Multiplayer Version des berühmten
+            „Schiffeversenken“. Ein Benutzer muss sich anmelden, um spielen zu
+            können. Spring Security implementiert diesen
+            Sicherheitsmechanismus. Ein angemeldeter Nutzer kann entweder ein
+            neues Spiel erstellen oder einem Spiel beitreten, das von einem
+            anderen Spieler erstellt wurde. Am Anfang eines Spiels muss jeder
+            Spieler seine Schiffe per Drag & Drop auf einem 10×10 Spielfeld
+            platzieren. Anschließend kann die erste Runde an Angriffen
+            beginnen. Ein Angriff besteht aus fünf Schüssen auf bestimmte
+            Koordinaten, auf denen der Angreifer die Schiffe des Gegners
+            vermutet. Nach jeder Runde sieht der Angreifer, ob er getroffen
+            hat und/oder ob er selbst getroffen wurde. Ein Spieler gewinnt das
+            Spiel wenn er die gesamte Flotte des Gegners versenkt. Ein Spiel
+            endet unentschieden wenn beide Spieler in der gleichen Runde die
+            Flotte des Gegners versenken. Nach Spielende bekommt jeder Spieler
+            je nach Spielstand eine Punktbewertung, die in der zugehörigen
+            Datenbank gespeichert wird und die in seine allgemeine Wertung
+            miteinfließt. Auf der Homepage kann der Spieler in einer Tabelle
+            seinen Punktestand einsehen, sowie den der anderen Spieler. Selbst
+            wenn ein Spieler weiß, wie er die Sicherheitsmechanismen im
+            Frontend umgehen kann, blockt der Server alle illegalen Anfragen
+            ab, mit denen ein Spieler ein Spiel manipulieren könnte. Bei der
+            Gestaltung des UI wurde auf Fehlerprävention und
+            leichtverständliche Bedienbarkeit besonderen Wert gelegt.
+            <br />
+            <br />
+            Technologien: Java 8, Gradle, Spring Boot, Javascript, jQuery,
+            Vue.js
+          </p>
+          <ul class="actions special">
+            <li>
+              <a target="_blank" href="https://github.com/IsabelAntonia/salvo" class="button">Zum Code</a>
+            </li>
+          </ul>
+        </article>
 
-		<nav id="nav">
-			<ul id="takeMeHere" class="links">
-				<li style="background-color: #ADB7CE" class="active"><a href="index.html">Deutsch</a></li>
-				<li ><a href="englisch.html">Englisch</a></li>
+        <article>
+          <header>
+            <h2>Psychotherapeutensuche</h2>
+          </header>
+          <img class="image fit" src="images/therapeutensuche.png" alt="tic_tac_toe" />
+          <p>
+            Diese Seite ähnelt auf den ersten Blick der weiter unten gezeigten
+            Website für Barbara Seidl, ist aber eine erweiterete, komplexere
+            Version dieser. Die Psychotherapeutensuche bietet dem Nutzer die
+            Möglichkeit über die Eingabe einer Adresse Therapeuten sortiert
+            nach Nähe zu dieser Adresse anzuzeigen. Hierfür nutze ich die von
+            Google Maps bereitgestellte Distance Matrix API. Die Suche kann
+            aber auch ohne die Eingabe einer Adresse genutzt werden. Nutzer
+            können Filter setzen, z.B. welche Art von Therapie oder welche Art
+            der Abrechnung sie bevorzugen. Weiterhin gibt es bei dieser
+            Version ein Kontaktformular (Email.js). Da Barbara Seidl (meine
+            Mutter) zum heutigen Zeitpunkt weder ein Kontaktformular, noch die
+            Therapeutensuche benötigt, befinden diese sich nicht auf der von
+            meiner Mutter offiziell betriebenen Praxis-Website.
+            <br />
+            <br />
 
+            Technologien: Nuxt.js, Vuetify, Google Maps Distance Matrix API
+          </p>
+          <br />
+          <br />
+          <br />
+          <br />
+          <br />
+          <br />
+          <br />
+          <br />
+          <br />
+          <br />
+          <br />
+          <br />
+          <br />
 
-			</ul>
-			<ul class="icons">
-				<li><a href="https://www.linkedin.com/in/isabel-seidl-86732915b/" class="icon fa-linkedin"><span
-							class="label">Linkedin</span></a></li>
-				<li><a href="https://github.com/IsabelAntonia" class="icon fa-github"><span
-							class="label">GitHub</span></a></li>
-			</ul>
-		</nav>
+          <ul class="actions special">
+            <li>
+              <a target="_blank" href="https://psychotherapie-mit-suche.netlify.com" class="button">Zur Website</a>
+            </li>
+            <li>
+              <a target="_blank" href="https://github.com/IsabelAntonia/psychotherapie-mit-suche" class="button">Zum
+                Code</a>
+            </li>
+          </ul>
+        </article>
 
-		<!-- Main -->
-		<div id="main">
+        <article>
+          <header>
+            <h2 style="margin: 0">Mobile SPA für Fußballverein</h2>
+          </header>
 
+          <img style="height:300px; width: auto; margin: 2.5rem 0 2rem 0" src="images/soccer.png" alt="image-of-app" />
+          <img style="height:300px; width: auto; margin: 2.5rem 0 2rem 0" src="images/soccer2.png" alt="image-of-app" />
+          <p>
+            Diese Single Page Application - entwickelt mit Firebase und der
+            Vue CLI für die mobile Nutzung hat Benutzerauthentifizierung und
+            einen Chat in Echtzeit. Ich habe eine simplere Version während
+            meiner Kurszeit gebaut. Es war Teil des Lehrplans. Nach dem Ende
+            des Kurses habe ich nochmal eine verbesserte Version davon
+            gemacht. Dabei habe ich auf die zwei Vue.js Frameworks Vuetify und
+            Vuex zurückgegriffen, was zu einer noch besseren User Experience
+            führt. Der Kunde ist ein Fußballverein, der seinen Mitlgliedern
+            eine Web App zur Verfügung stellen möchte, damit diese deren
+            Funktionalität auch von unterwegs nutzen können. Dazu gehört
+            einmal der Chat. Weiterhin soll die App aber auch anstehende
+            Spiele anzeigen und allgemeine Informationen zugänglich machen.
+            Die Nutzung des Chats erfordert ein Einloggen. Die anderen Seiten
+            können als Gast benutzt werden. Tipp: Nachdem Sie den Link
+            geklickt haben, bietet Chrome die Möglichkeit den 'Device Mode'
+            auf ein Smartphone Ihrer Wahl umzustellen.
+            <br />
+            <br />
+            Technologien: Vue CLI, Vuetify, Vuex, Firebase
+          </p>
+          <ul class="actions special">
+            <li>
+              <a target="_blank"
+                href="https://mobile-soccer-app.netlify.com/?_ga=2.110943941.1556746972.1552211845-2097379821.1552063577"
+                class="button">Zur Website</a>
+            </li>
+            <li>
+              <a target="_blank" href="https://github.com/IsabelAntonia/soccer-app-redo" class="button">Zum Code</a>
+            </li>
+          </ul>
+        </article>
 
-		        <section class="posts" style="background-color: #ADB7CE">
-          <article>
-            <header>
-              <h2>Java Battleship Game</h2>
-            </header>
-            <!-- <img class="image fit" src="images/soccer.png" alt="" /> -->
-            <img class="image fit" src="images/Java.png" alt="tic_tac_toe" />
-            <p>
-              Dies ist eine Multiplayer Version des berühmten „Schiffeversenken“. Ein Benutzer muss sich
-						anmelden, um spielen
-						zu können. Spring Security implementiert diesen Sicherheitsmechanismus.
-						Ein angemeldeter Nutzer kann entweder ein neues Spiel erstellen oder einem Spiel beitreten, das
-						von einem
-						anderen Spieler erstellt wurde.
-						Am Anfang eines Spiels muss jeder Spieler seine Schiffe per Drag & Drop auf einem 10×10
-						Spielfeld platzieren.
-						Anschließend kann die erste Runde an Angriffen beginnen.
-						Ein Angriff besteht aus fünf Schüssen auf bestimmte Koordinaten, auf denen der Angreifer die
-						Schiffe des
-						Gegners vermutet.
-						Nach jeder Runde sieht der Angreifer, ob er getroffen hat und/oder ob er selbst getroffen wurde.
-						Ein Spieler gewinnt das Spiel wenn er die gesamte Flotte des Gegners versenkt. Ein Spiel endet
-						unentschieden
-						wenn beide Spieler in der gleichen Runde die Flotte des Gegners versenken.
-						Nach Spielende bekommt jeder Spieler je nach Spielstand eine Punktbewertung, die in der
-						zugehörigen Datenbank
-						gespeichert wird und die in seine allgemeine Wertung miteinfließt.
-						Auf der Homepage kann der Spieler in einer Tabelle seinen Punktestand einsehen, sowie den der
-						anderen Spieler.
-						Selbst wenn ein Spieler weiß, wie er die Sicherheitsmechanismen im Frontend umgehen kann, blockt
-						der Server
-						alle illegalen Anfragen ab, mit denen ein Spieler ein Spiel manipulieren könnte.
-						Bei der Gestaltung des UI wurde auf Fehlerprävention und leichtverständliche Bedienbarkeit
-						besonderen Wert
-						gelegt.
-              <br />
-              <br />
-              Technologien: Java 8, Gradle, Spring Boot, Javascript, jQuery,
-              Vue.js
-            </p>
-            <ul class="actions special">
-              <li>
-                <a
-                  target="_blank"
-                  href="https://github.com/IsabelAntonia/salvo"
-                  class="button"
-                  >Zum Code</a
-                >
-              </li>
-            </ul>
-          </article>
-          
-                   <article>
-            <header>
-              <h2>Psychotherapeutensuche</h2>
-            </header>
-            <img
-              class="image fit"
-              src="images/therapeutensuche.png"
-              alt="tic_tac_toe"
-            />
-            <p>
-              Diese Seite ähnelt auf den ersten Blick der weiter unten gezeigten Website für Barbara Seidl,
-                ist aber eine erweiterete, komplexere Version dieser.
-                Die Psychotherapeutensuche bietet dem Nutzer die Möglichkeit über die Eingabe einer Adresse
-                Therapeuten
-                sortiert nach Nähe zu dieser Adresse anzuzeigen.
-                Hierfür nutze ich die von Google Maps bereitgestellte Distance Matrix API. Die Suche kann aber
-                auch ohne die
-                Eingabe einer Adresse genutzt werden.
-                Nutzer können Filter setzen, z.B. welche Art von Therapie oder welche Art der Abrechnung sie
-                bevorzugen.
-                Weiterhin gibt es bei dieser Version ein Kontaktformular (Email.js).
-                Da Barbara Seidl (meine Mutter) zum heutigen Zeitpunkt weder ein Kontaktformular, noch die Therapeutensuche
-                benötigt, befinden
-                diese sich nicht auf der von meiner Mutter offiziell betriebenen Praxis-Website.
-              <br />
-              <br />
-              
-              Technologien: Nuxt.js, Vuetify, Google Maps Distance Matrix API
-            </p>
-<br />
-              <br />
-              <br />
-              <br />
-              <br />
-              <br />
-              <br />
-              <br />
-              <br />
-              <br />
-              <br />
-              <br />
-              <br />
-             
-            <ul class="actions special">
-              <li>
-                <a
-                  target="_blank"
-                  href="https://psychotherapie-mit-suche.netlify.com"
-                  class="button"
-                  >Zur Website</a
-                >
-              </li>
-                 <li>
-                <a
-                  target="_blank"
-                  href="https://github.com/IsabelAntonia/psychotherapie-mit-suche"
-                  class="button"
-                  >Zum Code</a
-                >
-              </li>
-            </ul>
-          </article>
-          
-                    <article>
-            <header>
-              <h2>Mobile SPA für Fußballverein</h2>
-            </header>
-   
-            <img
-              style="height:300px; width: auto; margin-bottom: 50px;"
-              src="images/soccer.png"
-              alt="image-of-app"
-            />
-            <img
-              style="height:300px; width: auto; margin-bottom: 50px;"
-              src="images/soccer2.png"
-              alt="image-of-app"
-            />
-            <p>
-              Diese Single Page Application - entwickelt mit Firebase und der Vue CLI für die mobile Nutzung
-                hat
-                Benutzerauthentifizierung und einen Chat in Echtzeit.
-                Ich habe eine simplere Version während meiner Kurszeit gebaut. Es war Teil des Lehrplans.
-                Nach dem Ende des Kurses habe ich nochmal eine verbesserte Version davon gemacht.
-                Dabei habe ich auf die zwei Vue.js Frameworks Vuetify und Vuex zurückgegriffen, was zu einer
-                noch besseren User
-                Experience führt.
-                Der Kunde ist ein Fußballverein, der seinen Mitlgliedern eine Web App zur Verfügung stellen
-                möchte, damit diese
-                deren Funktionalität auch von unterwegs nutzen können.
-                Dazu gehört einmal der Chat. Weiterhin soll die App aber auch anstehende Spiele anzeigen und
-                allgemeine
-                Informationen zugänglich machen.
-                Die Nutzung des Chats erfordert ein Einloggen. Die anderen Seiten können als Gast benutzt
-                werden.
-                Tipp: Nachdem Sie den Link geklickt haben, bietet Chrome die Möglichkeit den 'Device Mode' auf
-                ein Smartphone
-                Ihrer Wahl umzustellen.
-              <br />
-              <br />
-              Technologien: Vue CLI, Vuetify, Vuex, Firebase
-            </p>
-            <ul class="actions special">
-              <li>
-                <a
-                  target="_blank"
-                  href="https://mobile-soccer-app.netlify.com/?_ga=2.110943941.1556746972.1552211845-2097379821.1552063577"
-                  class="button"
-                  >Zur Website</a
-                >
-              </li>
-                <li>
-                <a
-                  target="_blank"
-                  href="https://github.com/IsabelAntonia/soccer-app-redo"
-                  class="button"
-                  >Zum Code</a
-                >
-              </li>
-            </ul>
-          </article>
-          
-                    <article>
-            <header>
-              <h2>Website für TGIF</h2>
-            </header>
-            <img class="image fit" src="images/TGIF.png" alt="" />
-            <p>
-              TGIF steht für 'Transparency in American Government'.
-                TGIF hat das Ziel der amerikanischen Öffentlichkeit politisch relevante Daten zugänglich zu
-                machen.
-                Trotz des recht simplen Designs, erreicht die Seite, dass der Websitenbesucher durch die Nutzung
-                von Filtern und
-                Tabellen schnell die für ihn interessanten Informationen findet.
-                Auf meinem Github Account finen Sie zwei Versionen. Einmal habe ich die Seite zu Übungszwecken
-                mit Vanilla
-                Javascript gebaut und einmal mit der Hilfe von Vue.js. Die Seite ist voll responsiv und
-                funktioniert mit Safari, Firefox und Chrome.
-              <br />
-              <br />
-              Technologien: Vanilla JS/Vue.js, Bootstrap
-            </p>
-            
-             <br />
-              <br />
-              <br />
-              <br />
-              <br />
-              <br />
-              <br />
-              <br />
-              <br />
-            <ul class="actions special">
-              <li>
-                <a
-                  target="_blank"
-                  href="https://isabelantonia.github.io/TGIF-Vuejs/senate-data.html"
-                  class="button"
-                  >Zur Website</a
-                >
-              </li>
-                  <li>
-                <a
-                  target="_blank"
-                  href="https://github.com/IsabelAntonia/TGIF-Vuejs"
-                  class="button"
-                  >Code (Vue.js)</a
-                >
-              </li>
-                  <li>
-                <a
-                  target="_blank"
-                  href="https://github.com/IsabelAntonia/TGIF-JS"
-                  class="button"
-                  >Code (Vanilla JS)</a
-                >
-              </li>
-            </ul>
-          </article>
+        <article>
+          <header>
+            <h2>Website für TGIF</h2>
+          </header>
+          <img class="image fit" src="images/TGIF.png" alt="" />
+          <p>
+            TGIF steht für 'Transparency in American Government'. TGIF hat das
+            Ziel der amerikanischen Öffentlichkeit politisch relevante Daten
+            zugänglich zu machen. Trotz des recht simplen Designs, erreicht
+            die Seite, dass der Websitenbesucher durch die Nutzung von Filtern
+            und Tabellen schnell die für ihn interessanten Informationen
+            findet. Auf meinem Github Account finen Sie zwei Versionen. Einmal
+            habe ich die Seite zu Übungszwecken mit Vanilla Javascript gebaut
+            und einmal mit der Hilfe von Vue.js. Die Seite ist voll responsiv
+            und funktioniert mit Safari, Firefox und Chrome.
+            <br />
+            <br />
+            Technologien: Vanilla JS/Vue.js, Bootstrap
+          </p>
 
-          <article>
-            <header>
-              <h2>Website Cirsten Ullrich</h2>
-            </header>
-            <!-- <img class="image fit" src="images/soccer.png" alt="" /> -->
-            <img class="image fit" src="images/tic.png" alt="tic_tac_toe" />
-            <p>
-              Tic Tac Toe is a classic, simple game for two players. I made this game to
-              practice my JS skills.
-              <br />
-              <br />
-              Technologien: HTML5, CSS3, JS
-            </p>
-            <ul class="actions special">
-             <li>
-                <a
-                  target="_blank"
-                  href="https://isabelantonia.github.io/tic_tac_toe_JS/"
-                  class="button"
-                  >Check it out</a
-                >
-              </li>
-         
-            </ul>
-          </article>
-          <article>
-            <header>
-              <h2>Tic Tac Toe</h2>
-            </header>
-            <!-- <img class="image fit" src="images/soccer.png" alt="" /> -->
-            <img class="image fit" src="images/tic.png" alt="tic_tac_toe" />
-            <p>
-              Dieses Spiel habe ich mit Vanilla JavaScript zu Übungszwecken entwickelt. Tic Tac Toe (oder Drei
-                gewinnt) ist ein klassisches, einfaches Zweipersonen-Strategiespiel.
-              <br />
-              <br />
-              Technologien: HTML5, CSS3, JS
-            </p>
-            <ul class="actions special">
-                  <li>
-                <a
-                  target="_blank"
-                  href="https://isabelantonia.github.io/tic_tac_toe_JS/"
-                  class="button"
-                  >Zur Website</a
-                >
-              </li>
-                 <li>
-                <a
-                  target="_blank"
-                  href="https://github.com/IsabelAntonia/tic_tac_toe_JS"
-                  class="button"
-                  >Zum Code</a
-                >
-              </li>
-              
-            </ul>
-          </article>
+          <br />
+          <br />
+          <br />
+          <br />
+          <br />
+          <br />
+          <br />
+          <br />
+          <br />
+          <br />
+          <br />
+          <br />
+          <ul class="actions special">
+            <li>
+              <a target="_blank" href="https://isabelantonia.github.io/TGIF-Vuejs/senate-data.html" class="button">Zur
+                Website</a>
+            </li>
+            <li>
+              <a target="_blank" href="https://github.com/IsabelAntonia/TGIF-Vuejs" class="button">Code (Vue.js)</a>
+            </li>
+            <li>
+              <a target="_blank" href="https://github.com/IsabelAntonia/TGIF-JS" class="button">Code (Vanilla JS)</a>
+            </li>
+          </ul>
+        </article>
 
-          <article>
-            <header>
-              <h2>Website Barbara Seidl</h2>
-            </header>
-            <img
-              class="image fit"
-              src="images/psychotherapie.png"
-              alt="photo_of_website"
-            />
-
-            <p>
-              Diese Website habe ich für meine Mutter gemacht, die als Psychotherapeutin eine eigene Praxis
-						leitet.
-						Nachdem ich auf einem Meetup eine Einführung zu Nuxt.js erhalten hatte, wollte ich die Vue.js
-						Framework direkt in einem Projekt einsetzen.
-						Nuxt.js kommt mit drei verschiedenen 'Rendering modes'.
-						Die Option 'Server Side Rendered (Universal)' bietet gegenüber einer normalen SPA bedeutende
-						Vorteile.
-						Webpages werden beim ersten Aufrufen vom Server gerendert, was dazu führt, dass der Nutzer
-						schneller etwas sieht und
-						auch Webcrawler keinen Seiten ohne Inhalt begegnen (schlecht hinsichtlich der SEO). 'Universal'
-						vereint das Beste von beiden Welten,
-						denn wenn der User dann auf der Seite navigiert, läd JavaScript wie gewohnt die Inhalte.
-              <br />
-              <br />
-              Technologien: Nuxt.js, Vuetify
-            </p>
-            <ul class="actions special">
-              <li>
-                <a
-                  target="_blank"
-                  href="https://www.psychotherapie-seidl.de"
-                  class="button"
-                  >Zur Website</a
-                >
-              </li>
-                 <li>
-                <a
-                  target="_blank"
-                  href="https://github.com/IsabelAntonia/psychotherapie-nuxt"
-                  class="button"
-                  >Zum Code</a
-                >
-              </li>
-            </ul>
-          </article>
+        <article>
+          <header>
+            <h2>Website Cirsten Ullrich</h2>
+          </header>
+          <!-- <img class="image fit" src="images/soccer.png" alt="" /> -->
+          <img class="image fit" src="images/Cirsten.png" alt="tic_tac_toe" />
+          <p>
+            Cirsten Ullrich ist eine erfolgreiche Psychotherapeutin mit eigener
+            Praxis in der Münchner Innenstadt. Meine Aufgabe war es, ihr einen
+            schlichten, übersichtlichen Webauftritt aufzubauen.
+            Gemeinsam mit der Kundin wurde ein Konzept und ein Design entworfen, das dann von mir umgesetzt wurde.
+            Der Inhalt (Text und Fotos)
+            wurde von Frau Ullrich bereitgestellt. Eventuell muss
+            durch eine berufliche Veränderung die Website in der Zukunft
+            weiter ausgebaut werden.
 
 
-
-          <article>
-            <header>
-              <h2>Buchladen Webpage</h2>
-            </header>
-            <img class="image fit" src="images/bookstore.png" alt="bookstore" />
-            <p>
-             Die Seite könnte als simples Frontend eines Buchladen dienen. Es handelt sich hierbei um eines
-                meiner frühsten
-                Projekte. Nutzer können nach Buchtiteln suchen und die Titel umdrehen, um auf der Rückseite mehr
-                Informationen
-                über das Buch zu finden. Dort befindet sich auch ein Button, der eine Bildergallerie öffnet. Die
-                Seite ist durch
-                die Integration von Bootstrap voll responsiv. Wie immer ist auch Vue mit im Spiel. Bitte nutzen
-                Sie Firefox oder
-                Chrome, um die Seite anzuschauen.
+            <br />
+            <br />
+            <i>"Frau Seidl war jederzeit für Fragen erreichbar. Ich habe mich
+              bei ihr sehr gut aufgehoben gefühlt. Sie ist sehr kompetent und
+              flexibel."</i>
+            <br />
+            <small class="makeSmall">Cirsten Ullrich, E-Mail: praxis@cirstenullrich.de,
               <br />
-              <br />
-              Technologien: Vue.js, Bootstrap
-            </p>
-             <br />
-              <br />
-              <br />
-              <br />
-            
-            <ul class="actions special">
-              <li>
-                <a
-                  target="_blank"
-                  href="https://isabelantonia.github.io/My_Bookstore/"
-                  class="button"
-                  >Zu Website</a
-                >
-              </li>
-                <li>
-                <a
-                  target="_blank"
-                  href="https://github.com/IsabelAntonia/My_Bookstore"
-                  class="button"
-                  >Zum Code</a
-                >
-              </li>
-            </ul>
-          </article>
+              Tel.: 0151 23328496 (für Rückfragen)</small>
+            <br />
+            <br />
+            Technologien: HTML5, CSS3, JS
+          </p>
+          <ul class="actions special">
+            <li>
+              <a target="_blank" href="https://www.cirstenullrich.de" class="button">Zur Website</a></li>
+            <li><a target="_blank" href="https://github.com/IsabelAntonia/Cirsten-website" class="button">Zum Code</a>
+            </li>
 
+          </ul>
+        </article>
+        <article>
+          <header>
+            <h2>Tic Tac Toe</h2>
+          </header>
+          <!-- <img class="image fit" src="images/soccer.png" alt="" /> -->
+          <img class="image fit" src="images/tic.png" alt="tic_tac_toe" />
+          <p>
+            Dieses Spiel habe ich mit Vanilla JavaScript zu Übungszwecken
+            entwickelt. Tic Tac Toe (oder Drei gewinnt) ist ein klassisches,
+            einfaches Zweipersonen-Strategiespiel.
+            <br />
+            <br />
+            Technologien: HTML5, CSS3, JS
+          </p>
+          <br>
+          <br>
+          <br>
+          <br>
+          <br>
+          <br>
+          <br>
+          <br>
+          <br>
+          <br>
+          <br>
 
-        </section>
+          <ul class="actions special">
+            <li>
+              <a target="_blank" href="https://isabelantonia.github.io/tic_tac_toe_JS/" class="button">Zur Website</a>
+            </li>
+            <li>
+              <a target="_blank" href="https://github.com/IsabelAntonia/tic_tac_toe_JS" class="button">Zum Code</a>
+            </li>
+          </ul>
+        </article>
 
-		</div>
+        <article>
+          <header>
+            <h2>Website Barbara Seidl</h2>
+          </header>
+          <img class="image fit" src="images/psychotherapie.png" alt="photo_of_website" />
 
-		<div id="copyright">
-			<ul>
-				<li>&copy; Untitled</li>
-				<li>Design: <a href="https://html5up.net">HTML5 UP</a></li>
-			</ul>
-		</div>
+          <p>
+            Diese Website habe ich für meine Mutter gemacht, die als
+            Psychotherapeutin eine eigene Praxis leitet. Nachdem ich auf einem
+            Meetup eine Einführung zu Nuxt.js erhalten hatte, wollte ich die
+            Vue.js Framework direkt in einem Projekt einsetzen. Nuxt.js kommt
+            mit drei verschiedenen 'Rendering modes'. Die Option 'Server Side
+            Rendered (Universal)' bietet gegenüber einer normalen SPA
+            bedeutende Vorteile. Webpages werden beim ersten Aufrufen vom
+            Server gerendert, was dazu führt, dass der Nutzer schneller etwas
+            sieht und auch Webcrawler keinen Seiten ohne Inhalt begegnen
+            (schlecht hinsichtlich der SEO). 'Universal' vereint das Beste von
+            beiden Welten, denn wenn der User dann auf der Seite navigiert,
+            läd JavaScript wie gewohnt die Inhalte.
+            <br />
+            <br />
+            Technologien: Nuxt.js, Vuetify
+          </p>
+          <ul class="actions special">
+            <li>
+              <a target="_blank" href="https://www.psychotherapie-seidl.de" class="button">Zur Website</a>
+            </li>
+            <li>
+              <a target="_blank" href="https://github.com/IsabelAntonia/psychotherapie-nuxt" class="button">Zum Code</a>
+            </li>
+          </ul>
+        </article>
 
-	</div>
+        <article>
+          <header>
+            <h2>Buchladen Webpage</h2>
+          </header>
+          <img class="image fit" src="images/bookstore.png" alt="bookstore" />
+          <p>
+            Die Seite könnte als simples Frontend eines Buchladen dienen. Es
+            handelt sich hierbei um eines meiner frühsten Projekte. Nutzer
+            können nach Buchtiteln suchen und die Titel umdrehen, um auf der
+            Rückseite mehr Informationen über das Buch zu finden. Dort
+            befindet sich auch ein Button, der eine Bildergallerie öffnet. Die
+            Seite ist durch die Integration von Bootstrap voll responsiv. Wie
+            immer ist auch Vue mit im Spiel. Bitte nutzen Sie Firefox oder
+            Chrome, um die Seite anzuschauen.
+            <br />
+            <br />
+            Technologien: Vue.js, Bootstrap
+          </p>
+          <br />
+          <br />
+          <br />
+          <br />
 
-	<!-- Scripts -->
-	<script src="assets/js/jquery.min.js"></script>
-	<script src="assets/js/jquery.scrollex.min.js"></script>
-	<script src="assets/js/jquery.scrolly.min.js"></script>
-	<script src="assets/js/browser.min.js"></script>
-	<script src="assets/js/breakpoints.min.js"></script>
-	<script src="assets/js/util.js"></script>
-	<script src="assets/js/main.js"></script>
+          <ul class="actions special">
+            <li>
+              <a target="_blank" href="https://isabelantonia.github.io/My_Bookstore/" class="button">Zu Website</a>
+            </li>
+            <li>
+              <a target="_blank" href="https://github.com/IsabelAntonia/My_Bookstore" class="button">Zum Code</a>
+            </li>
+          </ul>
+        </article>
+      </section>
+    </div>
 
+    <div id="copyright">
+      <ul>
+        <li>&copy; Untitled</li>
+        <li>Design: <a href="https://html5up.net">HTML5 UP</a></li>
+      </ul>
+    </div>
+  </div>
+
+  <!-- Scripts -->
+  <script src="assets/js/jquery.min.js"></script>
+  <script src="assets/js/jquery.scrollex.min.js"></script>
+  <script src="assets/js/jquery.scrolly.min.js"></script>
+  <script src="assets/js/browser.min.js"></script>
+  <script src="assets/js/breakpoints.min.js"></script>
+  <script src="assets/js/util.js"></script>
+  <script src="assets/js/main.js"></script>
 </body>
 
 </html>
